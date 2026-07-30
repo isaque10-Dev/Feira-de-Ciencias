@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  font-size: 10em;
+}
+
+.mae{
+  background-color: white;
+  width: 100%;
+  height: 10rem;
+}
+
+header{
+  background: linear-gradient(to right, rgb(65, 101, 152),rgb(50, 70, 100));
+  width: 100%;
+  height: 7.2rem;
+}
