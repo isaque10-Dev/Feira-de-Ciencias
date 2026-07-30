@@ -1,16 +1,31 @@
 .App {
   text-align: center;
-  font-size: 10em;
+ font-size: 10px;
 }
 
 .mae{
-  background-color: white;
+  background:linear-gradient(to bottom, white, rgb(178, 197, 252));
   width: 100%;
-  height: 10rem;
+  height: 100em;
 }
 
 header{
-  background: linear-gradient(to right, rgb(65, 101, 152),rgb(50, 70, 100));
+  background: linear-gradient(to bottom, rgb(65, 101, 152),rgb(50, 70, 100));
   width: 100%;
   height: 7.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{  
+  width: 8rem;
+  height: 8rem;
+}
+
+.inc{
+  background: linear-gradient(to top, rgb(65, 101, 152),rgb(50, 70, 100));
+  width: 50%;
+  height: 17rem;
+  border-radius: 0 0 80px 0;
 }
