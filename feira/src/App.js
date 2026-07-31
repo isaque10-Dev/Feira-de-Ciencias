@@ -1,5 +1,6 @@
 import './App.css';
 import imagem from './image.png';
+import xavier from './Xavier.png';
 
 function App() {
   return (
@@ -7,9 +8,27 @@ function App() {
       <section className='mae'>
       <header>
 <img src={imagem} alt='' className='logo'/> 
+
+            <h1 className='inst'>INSTITUTO SOCIAL NOSSA SENHORA DE FÁTIMA</h1>
+
       </header>
-      <section className='inc'></section>
-       
+
+      <section className='meio'>
+      <section className='inc'>
+        <h2>Seu futuro na <span>6a Feira</span> de profissões do Frei!</h2>
+        <h2>Faça sua inscrição</h2>
+        
+          <div className='teste'>
+        <div className='a1'>Fazer minha inscrição</div>
+        <div className='a2'>Ver Programação</div>
+          </div>
+
+
+      </section>
+          <div className='xavier'>
+            <img src={xavier} alt='' className='foxa'/>
+          </div>
+       </section>
 
 
 

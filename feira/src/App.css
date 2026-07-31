@@ -4,7 +4,7 @@
 }
 
 .mae{
-  background:linear-gradient(to bottom, white, rgb(178, 197, 252));
+  background:linear-gradient(to bottom, white, rgb(168, 189, 252));
   width: 100%;
   height: 100em;
 }
@@ -14,7 +14,7 @@ header{
   width: 100%;
   height: 7.2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-start;
   align-items: center;
 }
 
@@ -23,9 +23,86 @@ header{
   height: 8rem;
 }
 
+.inst{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+width: 15rem;
+font-weight: 700;
+}
+
+.meio{
+  display:flex ;
+  align-items: center;
+}
+
 .inc{
   background: linear-gradient(to top, rgb(65, 101, 152),rgb(50, 70, 100));
   width: 50%;
   height: 17rem;
   border-radius: 0 0 80px 0;
+  
+}
+h2{
+  color: white;
+  font-size:1.3rem;
+  position: relative;
+  top: 1.2rem;
+}
+span{color: rgb(234, 181, 94);}
+
+.teste{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.a1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  width: 15rem;
+  height: 2.3rem;
+  background-color: white;
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(234, 181, 94);
+  position: relative;
+  top: 5rem;
+
+}
+.a2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  width: 15rem;
+  height: 2.3rem;
+  background-color: rgb(234, 181, 94);
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  top: 5rem;
+ 
+}
+
+.xavier{
+  width: 28%;
+  background-color: rgb(50, 70, 100);
+  height: 15rem;
+  margin-left: 15rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 4px 2px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foxa{
+  width: 100%;
+  height: 100%;
 }
