@@ -1,6 +1,7 @@
 import './App.css';
 import imagem from './image.png';
 import xavier from './Xavier.png';
+import bruno from './bruno.png';
 
 function App() {
   return (
@@ -31,8 +32,27 @@ function App() {
        </section>
 
 
+       <section className='his'>
+        <div className='bruno'>
+          <img src={bruno} alt='' className='careca'/>
+          <div><p>Atualmente, além de executivo de TI, sou professor no Instituto onde nossa MISSÃO é  EDUCAR, PREPARAR OS JOVENS PARA O MERCADO DE TRABALHO com habilidades técnicas, humanas e conceituais. </p></div>  
+         <div> <h2>Bruno de Oliveira - Cursos de Informática 2005 e Inglês 2006</h2></div>
+        </div>
 
 
+
+        <div className='historia'>
+          <h2>Nossa História</h2>
+          <br/>
+          <br/>
+          <p>A Escola Profissional Nossa Senhora de Fátima oferece formação técnica e cursos de qualificação em uma infraestrutura moderna, com salas equipadas, laboratórios, oficinas, biblioteca e auditório.
+            <br/>
+            <br/>
+            Aqui, preparamos nossos alunos para entrar no mercado de trabalho com <span>confiança</span> e <span>competitividade</span>.</p>
+        </div>
+
+
+       </section>
 
 
 
